@@ -7,7 +7,7 @@ function App() {
   //  @param effect — Imperative function that can return a cleanup function
   //  @param deps — If present, effect will only activate if the values in the list change.
   useEffect(() => {
-    document.title = `Count: ${count}`;
+    document.title = `Counter App: ${count}`;
   },[count])
 
   return (
