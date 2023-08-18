@@ -4,3 +4,16 @@
   padding: 2rem;
   text-align: center;
 }
+
+button{
+  font-family: monospace;
+  font-size: x-large;
+  padding: 0.5rem;
+  border: 2px solid #242424;
+  border-radius: 15px;
+  transition: border 0.5s ease-in-out;
+}
+
+button:hover{
+  border: 2px solid dodgerblue;
+}
