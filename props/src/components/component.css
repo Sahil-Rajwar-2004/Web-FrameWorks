@@ -1,0 +1,16 @@
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+span.name{
+    color: dodgerblue;
+    font-weight: bold;
+    text-decoration: underline orange;
+}
+
+span.hero{
+    color: orange;
+    font-style: italic;
+    text-decoration: underline dodgerblue;
+}
