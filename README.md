@@ -1,1 +1,1 @@
-# REACT + VITE basics
+# REACT/SVELTE + VITE basics
