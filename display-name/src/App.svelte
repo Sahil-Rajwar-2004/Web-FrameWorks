@@ -7,6 +7,7 @@
 
   function reset(){
     name = "World";
+    // @ts-ignore
     document.getElementById("inputs").value = "";
   }
 </script>
