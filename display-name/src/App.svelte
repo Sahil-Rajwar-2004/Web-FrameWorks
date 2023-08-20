@@ -6,13 +6,14 @@
   }
 
   function reset(){
-    name = "World"
+    name = "World";
+    document.getElementById("inputs").value = "";
   }
 </script>
 
 <main>
   <h1>Hello <span id="name">{name}</span>!</h1>
-  <input placeholder="name" on:input={update}/>
+  <input id="inputs" placeholder="name" on:input={update}/>
   <button on:click={reset}>Reset</button>
 </main>
 
