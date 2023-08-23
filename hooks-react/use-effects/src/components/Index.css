@@ -1,0 +1,8 @@
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    padding: 0.5rem 1rem;
+}
