@@ -24,7 +24,7 @@ function NewsApp(){
   return (
     <div>
       <h3><span>Nirmata</span>: <a href="https://x.com/justSahilRajwar" target='blank_'>Sahil-Rajwar</a></h3>
-      <h3><span>Src-Code</span>: <a href="https://github.com/Sahil-Rajwar-2004/React.git" target='blank_'>Sahil-Rajwar</a></h3>
+      <h3><span>Src-Code</span>: <a href="https://github.com/Sahil-Rajwar-2004/Web-FrameWorks/tree/master/news-headlines" target='blank_'>Sahil-Rajwar</a></h3>
       <h1>Daily Dose Of News</h1>
       <select onChange={(e) => getNews(apiKey,e.target.value)}>
         <option value="space">Space</option>
