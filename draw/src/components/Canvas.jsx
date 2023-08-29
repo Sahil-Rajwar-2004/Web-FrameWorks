@@ -15,7 +15,7 @@ const DrawCanvas = ({width,height}) => {
       event.clientY - canvas.offsetTop
     );
   };
-
+ 
   const handleMouseMove = (event) => {
     if (isDrawing) {
       const canvas = canvasRef.current;
